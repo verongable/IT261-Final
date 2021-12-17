@@ -1,0 +1,482 @@
+/* General Styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    overflow: hidden;
+    background-color: black;
+}
+
+header img {
+    width: 234px;
+    margin-left: 1rem;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    margin: 10px 0;
+    font-family: 'PT Serif', serif;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 5rem 4rem auto;
+}
+
+nav li {
+    float: left;
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#logo {
+    float: left;
+    max-width: 100px;
+    margin: 2rem;
+}
+
+#wrapper {
+    max-width: 1100px;
+    margin: 5rem auto;
+    clear: both;
+}
+
+#wrapper a {
+    color: black;
+    text-decoration: none;
+}
+
+#wrapper a:hover {
+    text-decoration: underline;
+}
+
+.success {
+    float: left;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.welcome-logout {
+    position: absolute;
+    color: white;
+    right: 61px;
+    top: 118px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.welcome-logout a:hover {
+    text-decoration: underline;
+}
+
+.welcome-logout p {
+    text-align: end;
+}
+
+.welcome-logout a {
+    color:white;
+    text-decoration: none;
+}
+
+/* Register Page */
+
+h1.register {
+    margin-left: 19rem;
+    margin-bottom: 2rem;
+}
+
+/* Login Page */
+
+h1.login {
+    margin-left: 19rem;
+    margin-bottom: 1rem;
+}
+
+/* Index Page */
+
+#homepage-wrapper {
+    max-width: 1100px;
+    margin: 5rem auto;
+    clear: both;
+    margin-bottom: 41rem;
+}
+
+.homepage-main {
+    float: left;
+    width: 40%;
+}
+
+.homepage-main p {
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    line-height: 1.3rem;
+}
+
+.homepage-aside {
+    float:right;
+    width: 60%;
+}
+
+.homepage-aside img {
+    max-width: 100%;
+}
+
+/* About Page */
+
+#about-page {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#about-page h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#about-page img {
+    max-width: 60%;
+    margin: 1rem auto;
+    display: block;
+    border: 1px solid;
+}
+
+/* Agents Page */
+
+.featured {
+    float: left;
+    width: 62%;
+    margin-left: 3rem;
+    margin-bottom: 5rem;
+}
+.featured img {
+    max-width: 50%;
+    float: left;
+}
+
+.featured h1 {
+    margin-bottom: 3rem;
+}
+
+.featured h2 {
+    margin-left: 23rem;
+    margin-bottom: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    color: #585858;
+    font-size: 30px;
+}
+
+.featured p {
+    margin-left: 23rem;
+    line-height: 26px;
+}
+
+.agents {
+    float:right;
+    width: 22%;
+    background-color: #9e9e9e2b;
+    margin-right: 4rem;
+    margin-top: 7rem;
+    border: 1px solid black;
+    padding: 2rem;
+}
+
+.agents h2, .agents ul {
+    text-align: center;
+}
+
+.agents h2 {
+    margin-bottom: 2rem;
+    font-family: 'Rufina', serif;
+}
+
+.agents li {
+    margin-bottom: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.agents a, .listings-main a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Listings Page */
+
+.listings-main h1 {
+    margin-left: 7rem;
+    margin-bottom: 3rem;
+}
+
+h1.listings-view {
+    margin-bottom: 2rem;
+}
+
+.listings-view-aside {
+    float:left;
+    width: 40%;
+    background-color: #ececec;
+    height: 404px;
+}
+
+.listings-view-aside img {
+    width: 100%;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    margin-top: 0.5rem;
+}
+
+.listings-view-main {
+    float: right;
+    width: 60%;
+    background-color: #9e9e9e33;
+    padding: 2rem;
+}
+
+.listings-view-main li {
+    margin-bottom: .5rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.listings-bottom {
+    width: 100%;
+    margin-top: 30rem;
+}
+
+.listings-bottom img{
+    width: 25%;
+}
+
+/* Contact Page */
+
+#contact-page {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#contact-page h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#contact-page h3 {
+    margin: 0 auto;
+    max-width: 215px;
+    margin-bottom: 2rem;
+}
+
+/* Form Styles */
+
+form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+fieldset {
+    padding: 2rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+fieldset li{
+    font-family: 'Montserrat', sans-serif;
+}
+
+input#tour1, input#tour2, input#privacy {
+    margin: 1rem;
+    margin-left: 0rem;
+}
+
+input#username, input#password {
+    margin-bottom: 1rem;
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+#full_name, #email, #phone, #last_name, #first_name, #password_1, #password_2 {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#comments {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+select {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+input[type="submit"] {
+    width: 40%;
+    margin: 0 auto;
+    display: block;
+    padding: 0.5rem;
+    font-size: 16px;
+    background-color: darkgray;
+}
+
+.reset {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.reset a:hover {
+    text-decoration: underline;
+}
+
+li.tour1, li.tour2{
+    margin-bottom: 1rem;
+}
+
+button.btn1 {
+    width: 59%;
+    padding: 0.5rem;
+    background-color: darkgray;
+}
+
+button.btn2 {
+    width: 40%;
+    padding: 0.5rem;
+}
+
+.block {
+    display: block;
+    text-align: center;
+    margin: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2rem;
+}
+
+.error {
+    color: red;
+    font-style: italic;
+    display: block;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.error p {
+    margin-top: 1rem;
+}
+
+/* Listing Table Styles */
+
+table {
+    margin: auto auto 5rem auto;
+    border: 1px solid black;
+    width: 900px;
+    background-color: #9e9e9e33;
+    padding: 1rem;
+}
+
+th {
+    padding: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    width: 20%;
+    padding-left: 2rem;
+}
+
+.price {
+    width: 20%;
+}
+
+table img {
+    width: 100%;
+    border: 1px solid black;
+    margin: 0.5rem;
+}
+
+td {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.address {
+    padding: 4%;
+}
+
+.price {
+    padding: 4%;
+    width: 15%;
+}
+
+/* Thanks Page */
+
+h2.thx {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Footer Styles */
+
+footer {
+    height: 80px;
+    border-top: 1px solid black;
+    line-height: 50px;
+    clear: both;
+    font-size: 14px;
+}
+
+footer ul {
+    display: flex;
+    width: 1100px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+footer li {
+    float: left;
+    list-style-type: none;
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
